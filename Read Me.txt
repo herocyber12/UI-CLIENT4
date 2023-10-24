@@ -1,0 +1,3 @@
+Dashboard Admin
+path/sb-admin/pages/
+

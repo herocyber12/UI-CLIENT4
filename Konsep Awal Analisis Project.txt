@@ -1,0 +1,66 @@
+`09*Note : setiap table dibuat table created_at dan update_at
+
+-------------------------------------------------------------
+
+color
+
+primary : 00A9FF
+second:F2BE22
+threed : 3d3d3d
+
+
+Member ---------> Optional (Akun verification)
+-uid (Primary Key)
+-username
+-password
+-id_profil(Foreign Key)
+
+Profil
+-id_profil(Primary Key)
+-Nama
+-alamat
+-no_hp
+-barcode(abu-abu)
+-level->(status akun)
+-foto
+
+buku
+-id_buku (Primary Key)
+-cover
+-barcode(optional)
+-sinopsis
+-nama_buku
+-penerbit
+-penulis
+-tahun_terbit
+-status_buku ('Dipinjam', 'Rusak')
+-id_kategori(Foreign Key)
+-id_review (Foreig_key)
+-totalpeminjam
+
+Kategori -> Optional tergantung pengetahuan pengelolaan database
+-id_kategori(Primary Key)
+-kategori  =>   Pendidikan dan Umum
+
+Table Kategori 80% jadi digunakan
+
+Review
+-id_review (Primary Key)
+-rate (enum -> 1~5)
+-komentar (null)
+-id_profil
+
+*Jika Rusak masih bisa dipinjam 
+
+Reservasi
+-id_reservasi (Primary)
+-tanggal_dipinjam
+-tanggal_dikembalikan (perkiraan)
+-status_reservasi('Masih dipinjam','Sudah dikembalikan','Pengajuan Peminjaman')
+- status_peminjaman ('Disetujui', 'Belum Disetujui', 'Tidak di setujui')
+-id_profil (Foreign Key)
+-id_buku (Foreign Key)
+
+*Jika diperpanjang maka yang di update adalah field tanggal_dikembalikan
+
+ 

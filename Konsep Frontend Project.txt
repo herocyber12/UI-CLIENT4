@@ -1,0 +1,31 @@
+Keterangan 
+v = Sudah Dibuat
+x = Belum dibuat
+~ = Progres
+
+Halaman User
+- Daftar Buku		v
+- Login			v
+- Register		v
+- Lupa Password		v
+- Detail Buku		v
+- Kategori		x
+- Bookmark		x
+- Riwayat Meminjam	x
+
+Halaman Admin
+- Halaman Dashboard ([semua data] Total Pengunjung Website, Total Buku tersedia (Yang belum dipinjam), Total buku yang tidak tersedia (yang dipinjam), Total permintaan peminjaman)	v
+- Halaman Buku (Daftar Buku (Ditambahkan Filter datta [Optional]), Edit Buku, Hapus Buku, Input Buku)											v
+- Halaman Penggunca [Disertai Level Pengguna] (Daftar Pengguna, Edit Pengguna, Hapus Pengguna)												v
+- Halaman Permintaan Peminjaman (Daftar Permintaan Peminjamaan, Edit Permintaan Peminjaman[Berupa Button], Hapus Permintaan Peminjaman)							v
+- Halaman Kategori (CRUD Kategori biasa)																		v
+- Riwayat Peminjaman (Daftar Peminjaman, Hapus Riwayat)																	v
+
+
+Alur Registrasi
+User melakukan Registrasi pembuatan akun => [Optional] User melakukan verifikasi akun [Melalui WA/Email] => Jika user berhasil membuat akun akan dikembalikan ke halaman login dan sistem akan mengirim notifikasi ke nomor wa admin jika ada user baru yang melakukan registrasi
+
+Alur Peminjaman
+User memilih buku dari "Halaman Daftar Buku" => User Menekan Tombol Pinjam (Default dipinjam 3 hari) [data masuk ke table "Reservasi"] dan masuk ke dashboard Admin=> Admin melakukan Konfirmasi Peminjaman kepada user terkait => [Optional] Buku dapat diperpanjang ketika atau sebelum masa peminjaman selesai (default awal 3 hari) => ketika selesai maka data akan masuk ke Riwayat Peminjaman
+
+ 
