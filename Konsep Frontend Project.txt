@@ -3,23 +3,29 @@ v = Sudah Dibuat
 x = Belum dibuat
 ~ = Progres
 
+Ket 
+FR = Frontend
+BC = Beckend
+
 Halaman User
-- Daftar Buku		v
-- Login			v
-- Register		v
-- Lupa Password		v
-- Detail Buku		v
-- Kategori		x
-- Bookmark		x
-- Riwayat Meminjam	x
+			FR	BC
+- Daftar Buku		v	v
+- Login			v	x	-> Butuh Sistem Login
+- Register		v	x	-> Butuh Sistem Login
+- Lupa Password		v	x	-> Butuh Sistem Login
+- Detail Buku		v	v	-> Butuh Sistem Login
+- Kategori		x	x
+- Bookmark		x	x	-> Butuh Sistem Login
+- Riwayat Meminjam	x	x	-> Butuh Sistem Login
 
 Halaman Admin
-- Halaman Dashboard ([semua data] Total Pengunjung Website, Total Buku tersedia (Yang belum dipinjam), Total buku yang tidak tersedia (yang dipinjam), Total permintaan peminjaman)	v
-- Halaman Buku (Daftar Buku (Ditambahkan Filter datta [Optional]), Edit Buku, Hapus Buku, Input Buku)											v
-- Halaman Penggunca [Disertai Level Pengguna] (Daftar Pengguna, Edit Pengguna, Hapus Pengguna)												v
-- Halaman Permintaan Peminjaman (Daftar Permintaan Peminjamaan, Edit Permintaan Peminjaman[Berupa Button], Hapus Permintaan Peminjaman)							v
-- Halaman Kategori (CRUD Kategori biasa)																		v
-- Riwayat Peminjaman (Daftar Peminjaman, Hapus Riwayat)																	v
+																							FR	BC
+- Halaman Dashboard ([semua data] Total Pengunjung Website, Total Buku tersedia (Yang belum dipinjam), Total buku yang tidak tersedia (yang dipinjam), Total permintaan peminjaman)	v	v (kurang chart)
+- Halaman Buku (Daftar Buku (Ditambahkan Filter datta [Optional]), Edit Buku, Hapus Buku, Input Buku)											v	v
+- Halaman Penggunca [Disertai Level Pengguna] (Daftar Pengguna, Edit Pengguna, Hapus Pengguna)												v	v
+- Halaman Permintaan Peminjaman (Daftar Permintaan Peminjamaan, Edit Permintaan Peminjaman[Berupa Button], Hapus Permintaan Peminjaman)							v	v
+- Halaman Kategori (CRUD Kategori biasa)																		v	v
+- Riwayat Peminjaman (Daftar Peminjaman, Hapus Riwayat)																	v	v
 
 
 Alur Registrasi

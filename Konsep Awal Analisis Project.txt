@@ -2,6 +2,11 @@
 
 -------------------------------------------------------------
 
+Keterangan :
+v = Selesai
+x = belum selesai
+~ = progress
+
 color
 
 primary : 00A9FF
@@ -21,8 +26,12 @@ Profil
 -alamat
 -no_hp
 -barcode(abu-abu)
--level->(status akun)
+-status->('Admin', 'Member')
 -foto
+
+tamu
+-nama
+-no_hp
 
 buku
 -id_buku (Primary Key)
@@ -33,9 +42,8 @@ buku
 -penerbit
 -penulis
 -tahun_terbit
--status_buku ('Dipinjam', 'Rusak')
+-status_buku ('Dipinjam', 'Rusak','Tersedia');
 -id_kategori(Foreign Key)
--id_review (Foreig_key)
 -totalpeminjam
 
 Kategori -> Optional tergantung pengetahuan pengelolaan database
@@ -49,6 +57,7 @@ Review
 -rate (enum -> 1~5)
 -komentar (null)
 -id_profil
+-id_buku
 
 *Jika Rusak masih bisa dipinjam 
 
