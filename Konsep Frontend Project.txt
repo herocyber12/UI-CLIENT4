@@ -15,7 +15,6 @@ Halaman User
 - Ganti Password	v	v	-> Butuh Sistem Login
 - Detail Buku		v	v	-> Butuh Sistem Login
 - Kategori		v	v
-- Bookmark		x	x	-> Butuh Sistem Login
 - Riwayat Meminjam	v	v
 
 Halaman Admin
@@ -26,7 +25,7 @@ Halaman Admin
 - Halaman Permintaan Peminjaman (Daftar Permintaan Peminjamaan, Edit Permintaan Peminjaman[Berupa Button], Hapus Permintaan Peminjaman)							v	v
 - Halaman Kategori (CRUD Kategori biasa)																		v	v
 - Riwayat Peminjaman (Daftar Peminjaman, Hapus Riwayat)																	v	v
-- Form Penambahan Kegiatan (Daftar, Simpan, Hapus) sistem default (30 hari hapus otomatis)												x	x	
+- Form Penambahan Kegiatan (Daftar, Simpan, Hapus) sistem default (30 hari hapus otomatis)												v	v	
 x
 
 Alur Registrasi
